@@ -343,6 +343,23 @@ h3 {
   color: var(--ink-soft);
 }
 
+.expertise-items {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--ink-soft);
+}
+
+.expertise-items li + li {
+  margin-top: 0.35rem;
+}
+
+.project-link {
+  color: var(--teal);
+  font-weight: 700;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
 .section-dark {
   background: var(--teal-dark);
   color: white;
